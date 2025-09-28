@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adomasmrazauskas/Documents/GitHub/shape/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z7getAreav, symObjAddr: 0x0, symBinAddr: 0x100003F64, symSize: 0x8 }
+  - { offsetInCU: 0x2DE5, offset: 0x2DE5, size: 0x8, addend: 0x0, symName: __Z7getAreav, symObjAddr: 0x0, symBinAddr: 0x100003F64, symSize: 0x8 }
+  - { offsetInCU: 0x2E02, offset: 0x2E02, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x8, symBinAddr: 0x100003F6C, symSize: 0x28 }
+...
