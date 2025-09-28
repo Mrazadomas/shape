@@ -1,16 +1,16 @@
 #include <iostream>
-#include "shapeh.cpp"
+#include "rth.cpp"
 
 using namespace std;
 
-class Circle : public Shape
+class IRtriangle : public Rtriangle
 {
 private:
-  double r;
+  double side;
   string name;
 
 public:
-  explicit Circle(double r);
+  explicit IRtriangle(double side);
   double getArea() override;
   double getPerimeter() override;
   string getName() override;

@@ -9,6 +9,7 @@ double pi = M_PI;
 Circle::Circle(double r)
 {
   this->r = r;
+  name = "circle";
 }
 
 double Circle::getArea()
@@ -21,4 +22,7 @@ double Circle::getPerimeter()
     return 2 * pi * r;
 }
 
+string Circle::getName() {
+    return name;
+}
 

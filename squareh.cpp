@@ -1,16 +1,16 @@
 #include <iostream>
-#include "shapeh.cpp"
+#include "rectangleh.cpp"
 
 using namespace std;
 
-class Circle : public Shape
+class Square : public Rectangle
 {
 private:
-  double r;
+  double side;
   string name;
 
 public:
-  explicit Circle(double r);
+  explicit Square(double side);
   double getArea() override;
   double getPerimeter() override;
   string getName() override;
