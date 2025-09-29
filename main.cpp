@@ -18,7 +18,7 @@ int main() {
     
     Circle c = Circle(3);
     Shape *c_ptr = &c;
-    double A = (0.5 * pi * pow(3, 2));
+    double A = (pi * pow(3, 2));
     assert(c.getArea() == A);
     double P = 2 * pi * 3;
     assert(c.getPerimeter() == P);

@@ -14,7 +14,7 @@ Circle::Circle(double r)
 
 double Circle::getArea()
 {
-  return 0.5 * pi * pow(r, 2);
+  return pi * pow(r, 2);
 }
 
 double Circle::getPerimeter() 
